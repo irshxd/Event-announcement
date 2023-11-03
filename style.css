@@ -68,7 +68,7 @@ text-align: center;
 }
 .card1{
     width: 40vh;
-    height: 34rem;
+    height: 38rem;
     background-color: tan;
     margin-top: 20px;
     margin-left: 20px;
@@ -79,15 +79,15 @@ text-align: center;
 }
 #card1Container{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    margin-left: 10px;
 }
 .card1-content{
     margin-top: 20px;
     margin-left: 30px;
-    margin-right: 20px;
+    margin-right: 10px;
     font-size: larger;
-    overflow: scroll;
+    overflow:auto;
 }
 .card-a{
     display: inline-block;
@@ -119,11 +119,6 @@ text-decoration: none;
     text-align: center;
     font-size: x-large;
     margin-top: 20px;
-  }
-  
-  #back-to-top:hover {
-    background-color: #ccc;
-    color: black;
   }
   #back-to-top {
     animation: fade-in 0.5s;
