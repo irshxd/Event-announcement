@@ -81,6 +81,7 @@ text-align: center;
     display: flex;
     flex-wrap: wrap;
     margin-left: 10px;
+    justify-content: space-between;
 }
 .card1-content{
     margin-top: 20px;
