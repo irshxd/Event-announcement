@@ -1,7 +1,7 @@
 const API_URL = "https://kontests.net/api/v1/all";
 
 async function renderCards() {
-  const response = await fetch(API_URL);
+  const response = await fetch(API_URL,{mode:'no-cors'});
   const value = await response.json();
 
   const card1Container = document.querySelector('#card1Container');
